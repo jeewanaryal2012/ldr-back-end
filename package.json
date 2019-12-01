@@ -7,9 +7,7 @@
     "node": "10.15.0"
   },
   "scripts": {
-    "start": "node app.js",
-    "build": "tsc -p .",
-    "build:live": "nodemon --watch '*.ts' --exec 'ts-node' src/app.ts"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
