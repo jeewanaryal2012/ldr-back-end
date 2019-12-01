@@ -8,12 +8,12 @@ var path_1 = __importDefault(require("path"));
 var users_1 = require("./users/users");
 var dotenv_1 = __importDefault(require("dotenv"));
 var app = express_1.default();
-var port = 3000;
+var port = 3002;
 app.set('views', path_1.default.join(__dirname, './views'));
 app.set('view engine', 'ejs');
 console.log(" ======================= ");
 dotenv_1.default.config();
-console.log("Your port is " + process.env.NODE_ENV); // 8626
+//console.log("Your port is " + process.env.NODE_ENV); // 8626
 app.get('/', function (req, res) {
     // The render method takes the name of the HTML 
     // page to be rendered as input 
